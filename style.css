@@ -1,7 +1,7 @@
 body {
   display: flex;
   justify-content: center;
-  padding-top: 40%;
+  padding-top: 35%;
   height: 100vh;
   background: linear-gradient(rgb(252 165 165), rgb(239 68 68));
 }
@@ -23,7 +23,6 @@ body {
   font-family: "Nunito";
   font-size: 50px;
   font-weight: bold;
-
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
