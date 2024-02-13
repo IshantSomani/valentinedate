@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">Yeeyy ! Finally</h1>
+      </div>
+      <div class="gif_container">
+        <img
+          src="https://i.postimg.cc/wTDG30TB/yes.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <button class="btn" id="yesButton" onclick="shareOnWhatsApp()">
+        Let's Fix a Date
+      </button>
+    </div>
+	<script>
+		function shareOnWhatsApp() {
+			// Message to be shared on WhatsApp
+			var message = "Hey, let's fix a date!";
+
+			// Phone number or contact to share the message with (optional)
+			var phoneNumber = ""; // Replace with the recipient's phone number
+
+			// Constructing the WhatsApp URL
+			var whatsappURL = "https://api.whatsapp.com/send?phone" + phoneNumber;
+
+			// Opening WhatsApp with the pre-filled message
+			window.location.href = whatsappURL;
+		}
+	</script>
+  </body>
+</html>
